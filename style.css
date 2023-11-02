@@ -26,17 +26,6 @@ body {
   min-width: 450px;
 }
 
-.header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.header button {
-  border: none;
-  background: none;
-  font-size: 35px;
-  color: white;
-}
 .main {
   display: flex;
   flex-direction: column;
@@ -78,4 +67,8 @@ img {
 
 i {
   font-size: 30px;
+}
+
+.hidden {
+  display: none;
 }
