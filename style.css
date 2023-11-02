@@ -1,0 +1,81 @@
+@import "reset.css";
+
+body {
+  height: 100vh;
+  background: #34495e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame {
+  background: rgb(53, 198, 145);
+  background: linear-gradient(
+    135deg,
+    rgba(53, 198, 145, 1) 0%,
+    rgba(18, 46, 102, 1) 100%
+  );
+  border-radius: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.65);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 450px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header button {
+  border: none;
+  background: none;
+  font-size: 35px;
+  color: white;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.temperature {
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.city {
+  font-size: 50px;
+}
+
+.footer {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+.footer-items {
+  display: flex;
+  align-items: center;
+}
+.footer-info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+}
+
+i {
+  font-size: 30px;
+}
